@@ -7,7 +7,7 @@ cd /home/abhishekyadav/WORK/TEST/SOS/Gemini/JavaQuestions || exit
 echo "Update on $(date '+%Y-%m-%d %H:%M:%S')" >> updates.txt
 
 # Run the Python script
-/usr/bin/python3 /home/abhishekyadav/WORK/TEST/SOS/Gemini/test.py >> /home/abhishekyadav/WORK/Github/daily_update.log 2>&1
+/usr/bin/python3 /home/abhishekyadav/WORK/TEST/SOS/Gemini/JavaQuestions/test.py >> /home/abhishekyadav/WORK/Github/daily_update.log 2>&1
 
 
 # Configure Git and commit changes
