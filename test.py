@@ -10,7 +10,7 @@ import time # Added for potential rate limiting
 
 # --- Configuration ---
 load_dotenv()
-API_KEY = "AIzaSyDmcJtvzo5ZAnvf2KebPPaTWc-cUCbiTe0"
+API_KEY = os.environ.get("GEMINI_API_KEY")
 OUTPUT_DIR = "java_solutions"
 LOG_FILE = "solver.log"
 GEMINI_MODEL = 'gemini-1.5-flash' # Or 'gemini-pro' or other compatible model
