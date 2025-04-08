@@ -135,14 +135,6 @@ def get_leetcode_question_from_gemini(model):
     - "constraints": A list of constraints for the input/output (list of strings).
     - "examples": A list of example inputs and outputs, clearly formatted (list of strings).
 
-    Example JSON format:
-    {
-      "title": "Example Problem Title",
-      "description": "Detailed description of what the function should do.",
-      "constraints": ["Constraint 1", "Constraint 2"],
-      "examples": ["Input: nums = [1, 2], target = 3\nOutput: [0, 1]", "Input: nums = [4, 5], target = 9\nOutput: [0, 1]"]
-    }
-
     Do NOT include any text before or after the JSON object. Just output the raw JSON.
     """
 
