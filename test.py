@@ -128,12 +128,12 @@ def get_leetcode_question_from_gemini(model):
     log_message("Generating LeetCode question using Gemini...")
     prompt = """
     Generate a LeetCode-style programming problem suitable for solving in Java.
-    The difficulty should be easy or medium.
     Provide the output STRICTLY as a JSON object containing the following keys:
     - "title": A concise title for the problem (string).
     - "description": A clear description of the problem (string).
     - "constraints": A list of constraints for the input/output (list of strings).
     - "examples": A list of example inputs and outputs, clearly formatted (list of strings).
+    - "Give random questions"
 
     Do NOT include any text before or after the JSON object. Just output the raw JSON.
     """
